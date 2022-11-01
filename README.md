@@ -5,10 +5,10 @@
 ## Usage
 
 ```typescript
-import { getHelloWorld } from "https://raw.githubusercontent.com/BrunnerLivio/deno-module-starter/{VERSION}/mod.ts";
+import { multiplyNumbers } from "https://raw.githubusercontent.com/BrunnerLivio/deno-module-starter/{VERSION}/mod.ts";
 
-const helloWorld = getHelloWorld();
-console.log(helloWorld); // Prints "Hello World" in bold
+const multipliedNumbers = multiplyNumbers(2,2);
+console.log(multipliedNumbers); // 4
 ```
 
 ## Test

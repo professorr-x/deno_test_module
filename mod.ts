@@ -1,6 +1,5 @@
-import { bold } from "./deps.ts";
 
 /** Returns `Hello World` in bold */
-export function getHelloWorld(): string {
-  return bold("Hello World");
+export function multiplyNumbers(a, b): number {
+  return a * b;
 }
