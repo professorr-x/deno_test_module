@@ -5,7 +5,7 @@
 ## Usage
 
 ```typescript
-import { multiplyNumbers } from "https://raw.githubusercontent.com/BrunnerLivio/deno-module-starter/{VERSION}/mod.ts";
+import { multiplyNumbers } from "https://deno.land/x/test_deno@0.1.0/mod.ts";
 
 const multipliedNumbers = multiplyNumbers(2,2);
 console.log(multipliedNumbers); // 4
